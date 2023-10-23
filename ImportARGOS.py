@@ -9,3 +9,10 @@
 ## Created: Fall 2023
 ## Author: melissa.merritt@duke.edu (for ENV859)
 ##---------------------------------------------------------------------
+
+# Import Packages 
+import sys, os, arcpy
+
+# Set input variables (Hard-wired)
+inputFile = 'V:/ARGOSTracking/Data/ARGOSData/1997dg.txt'
+outputFC = 'V:ARGOSTracking/Scratch/ARGOStrack.shp'
